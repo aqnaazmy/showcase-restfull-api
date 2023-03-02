@@ -1,0 +1,11 @@
+POST http://localhost:8080/api/showcase
+Content-Type: application/json
+Accept: application/json
+
+{
+  "id": "bfe0086d-97e8-4772-b04c-f18b106098122",
+  "title" : "Test Title After Create POST Method 123",
+  "image" : "https://res.cloudinary.com/devloops7/image/upload/v1674303593/undraw_Taken_re_yn20_dl1aqc.png",
+  "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  "categoryId":"251b9d54-0451-4191-bceb-6d39ef7f5590"
+}
